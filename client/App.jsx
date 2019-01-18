@@ -1,14 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet-async'
+import { GlobalStyles } from './styles/styles.js'
 const App = () => (
   <React.Fragment>
-    <Helmet>
-      <title>Home Page</title>
-    </Helmet>
-    <div>
-      Follow me at <a href="https://www.twitter.com/codymasao">@codymasao</a>
-    </div>
-
+    <GlobalStyles />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Redirect to="/" />
+    </Switch>
   </React.Fragment>
 )
 export default App
