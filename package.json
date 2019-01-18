@@ -4,6 +4,7 @@
   "description": "practice building a web app using the Parcel Bundler",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel app/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
