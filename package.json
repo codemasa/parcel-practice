@@ -1,0 +1,31 @@
+{
+  "name": "parcel-practice",
+  "version": "1.0.0",
+  "description": "practice building a web app using the Parcel Bundler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemasa/parcel-practice.git"
+  },
+  "author": "CodeMasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemasa/parcel-practice/issues"
+  },
+  "homepage": "https://github.com/codemasa/parcel-practice#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet-async": "^0.2.0",
+    "react-imported-component": "^5.4.0",
+    "react-router": "^4.3.1",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "react-hot-loader": "^4.6.3"
+  }
+}
