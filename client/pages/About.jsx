@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet-async'
-import Page from './component/Page.js'
+import Page from '../components/Page.jsx'
 
 const About = () => (
   <Page>

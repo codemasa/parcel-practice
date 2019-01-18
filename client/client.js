@@ -9,7 +9,7 @@ const app = (
   <HelmetProvider>
     <BrowserRouter>
       <App />
-    <BrowserRouter/>
+    </BrowserRouter>
   </HelmetProvider>
 )
 ReactDOM.render(app, element)
