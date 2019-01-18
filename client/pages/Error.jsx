@@ -1,7 +1,11 @@
 import React from 'react'
+import Page from './component/Page.js'
+
 const Error = () => (
-  <div>
-    Error!
-  </div>
+  <Page>
+    <div>
+      Error!
+    </div>
+  </Page
 )
 export default Error

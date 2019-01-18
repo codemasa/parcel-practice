@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet-async'
-import { GlobalStyles } from './styles/styles.js'
+import Page from './component/Page.js'
 const Home = () => (
-  <React.Fragment>
+  <Page>
     <Helmet>
       <title>Home Page</title>
     </Helmet>
@@ -10,6 +10,6 @@ const Home = () => (
       Follow me <a href="https://www.twitter.com/codymasao">@codymasao</a>
     </div>
 
-  </React.Fragment>
+  </Page>
 )
 export default Home
