@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { GlobalStyles } from './styles.js'
-import importComponent from 'react-imported-component'
+import { GlobalStyles } from './styles.js';
+import importComponent from 'react-imported-component';
+import { StickyContainer, Sticky } from 'react-sticky';
 
-
-import Home from './pages/Home.jsx'
-import LoadingComponent from './pages/Loading'
-import ErrorComponent from './pages/Error'
-import Header from './components/Header.jsx'
+import Home from './pages/Home.jsx';
+import LoadingComponent from './pages/Loading';
+import ErrorComponent from './pages/Error';
+import Header from './components/Header.jsx';
 
 const About = importComponent(() => import("./pages/About"), {
   LoadingComponent,

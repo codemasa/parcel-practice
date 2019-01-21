@@ -6,5 +6,6 @@ const Page = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #AAEEAA;
 `
 export default Page

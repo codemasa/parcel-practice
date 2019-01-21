@@ -32,6 +32,7 @@ const MenuLink = styled.li`
   text-decoration: none;
 `
 export default () => (
+
   <Header>
     <Brand>Cody Masao</Brand>
     <Menu>
@@ -43,16 +44,17 @@ export default () => (
       </MenuLink>
       <MenuLink>
         <NavLink
-          to="/about"
-          exact activeClassName="active"
-        >About</NavLink>
-      </MenuLink>
-      <MenuLink>
-        <NavLink
           to="/projects"
           exact activeClassName="active"
         >Projects</NavLink>
       </MenuLink>
+      <MenuLink>
+        <NavLink
+          to="/about"
+          exact activeClassName="active"
+        >About</NavLink>
+      </MenuLink>
     </Menu>
   </Header>
+
 )

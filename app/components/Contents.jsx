@@ -2,8 +2,8 @@ import styled from 'styled-components';
 const Contents = styled.div`
   padding-left: 10px;
   padding-right: 10px;
-  width: 90vw;
-  height: 100vh;
+  width: 80vw;
+  height: 300vh;
   display: flex;
   justify-content: center;
   align-items: center;
