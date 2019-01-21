@@ -13,6 +13,10 @@ const About = importComponent(() => import("./pages/About"), {
   LoadingComponent,
   ErrorComponent
 });
+const Projects = importComponent(() => import("./pages/Projects"), {
+  LoadingComponent,
+  ErrorComponent
+});
 
 const App = () => (
   <React.Fragment>
@@ -21,6 +25,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" render={() => <About />} />
+      <Route exact path="/projects" render={() => <Projects />} />
       <Redirect to="/" />
     </Switch>
   </React.Fragment>

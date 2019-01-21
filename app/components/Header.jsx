@@ -7,17 +7,21 @@ const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
-  max-width: 90vw;
+  max-width: 100vw;
+  max-height: 10vh;
   margin: 0 auto;
   padding: 1em 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 `
 const Brand = styled.h1`
+  padding-left: 10vw;
   font-size: var(--step-up-1);
 `
 const Menu = styled.ul`
+  padding-right: 10vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -29,7 +33,7 @@ const MenuLink = styled.li`
 `
 export default () => (
   <Header>
-    <Brand>Stream all the things!</Brand>
+    <Brand>Cody Masao</Brand>
     <Menu>
       <MenuLink>
         <NavLink
@@ -42,6 +46,12 @@ export default () => (
           to="/about"
           exact activeClassName="active"
         >About</NavLink>
+      </MenuLink>
+      <MenuLink>
+        <NavLink
+          to="/projects"
+          exact activeClassName="active"
+        >Projects</NavLink>
       </MenuLink>
     </Menu>
   </Header>
